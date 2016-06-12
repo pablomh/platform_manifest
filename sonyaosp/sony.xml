@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="sony"
+           fetch="https://github.com/sonyxperiadev/" />
+
+  <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/sumire" name="SonyAosp/device_sony_sumire" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/sirius" name="SonyAosp/device_sony_sirius" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/castor" name="SonyAosp/device_sony_castor" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/castor_windy" name="SonyAosp/device_sony_castor_windy" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/aries" name="SonyAosp/device_sony_aries" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/leo" name="SonyAosp/device_sony_leo" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.1-3.10" />
+  <project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="hardware/broadcom/fm" name="SonyAosp/platform_hardware_broadcom_fm" groups="device" remote="github" revision="master" />
+
+  <project path="hardware/sony/fingerprint" name="SonyAosp/platform_hardware_sony_fingerprint" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/dataservices" name="SonyAosp/platform_hardware_sony_dataservices" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/init" name="SonyAosp/platform_hardware_sony_init" groups="device" remote="github" revision="android-7.1-3.10" />
+
+  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
+
+  <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
+
+  <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCProject/NXPNFCC_FW" groups="device" remote="github" revision="master" />
+  <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
+  <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
+
+</manifest>
