@@ -30,6 +30,10 @@
   <project path="device/sony/pioneer" name="SonyAosp/device_sony_pioneer" groups="device" remote="github" revision="android-8.1" />
   <project path="device/sony/discovery" name="SonyAosp/device_sony_discovery" groups="device" remote="github" revision="android-8.1" />
 
+  <project path="device/sony/tama" name="SonyAosp/device_sony_tama" groups="device" remote="github" revision="android-8.1" />
+  <project path="device/sony/akari" name="SonyAosp/device_sony_akari" groups="device" remote="github" revision="android-8.1" />
+  <project path="device/sony/apollo" name="SonyAosp/device_sony_apollo" groups="device" remote="github" revision="android-8.1" />
+
   <project path="hardware/sony/fingerprint" name="SonyAosp/platform_hardware_sony_fingerprint" groups="device" remote="github" revision="master" />
   <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
   <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
@@ -38,10 +42,10 @@
   <project path="hardware/sony/transpower" name="transpower" groups="device" remote="sony" revision="master" />
   <project path="hardware/sony/cash" name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 
-  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="aosp/LA.UM.6.4.r1" />
-  <project path="kernel/sony/msm/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
-  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
-  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/fw-api" name="kholk/vendor-qcom-opensource-wlan-fw-api" groups="device" remote="github" revision="LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="kholk/vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="github" revision="LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0" name="kholk/vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="github" revision="aosp/LE.UM.2.3.2.r1.4" />
 
   <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
 
