@@ -9,6 +9,7 @@
 
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-8.1" />
   <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-8.1" />
+  <project path="device/sony/customization" name="SonyAosp/device_sony_customization" groups="device" remote="github" revision="android-8.1" />
 
   <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-8.1" />
   <project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-8.1" />
