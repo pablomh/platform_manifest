@@ -3,6 +3,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/atv" />
