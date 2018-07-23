@@ -15,7 +15,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="SonyAosp/platform_bionic" groups="pdk" remote="github" revision="android-8.1" />
+
   <project path="bootable/recovery" name="SonyAosp/android_bootable_recovery" groups="pdk" remote="github" revision="android-8.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SonyAosp/vendor_qcom_opensource_cryptfs_hw" groups="device" remote="github" revision="android-8.1" />
 
   <project path="external/exfat" name="SonyAosp/platform_external_exfat" groups="pdk" remote="github" revision="android-8.1" />
   <project path="external/libfuse" name="SonyAosp/platform_external_libfuse" groups="pdk" remote="github" revision="android-8.1" />
