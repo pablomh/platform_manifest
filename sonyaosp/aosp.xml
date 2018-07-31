@@ -15,18 +15,18 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="SonyAosp/platform_bionic" groups="pdk" remote="github" revision="android-8.1" />
+  <project path="bootable/recovery" name="SonyAosp/platform_bootable_recovery" groups="pdk" remote="github" revision="android-8.1" />
 
-  <project path="bootable/recovery" name="SonyAosp/android_bootable_recovery" groups="pdk" remote="github" revision="android-8.1" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="SonyAosp/vendor_qcom_opensource_cryptfs_hw" groups="device" remote="github" revision="android-8.1" />
-
-  <project path="external/exfat" name="SonyAosp/platform_external_exfat" groups="pdk" remote="github" revision="android-8.1" />
-  <project path="external/libfuse" name="SonyAosp/platform_external_libfuse" groups="pdk" remote="github" revision="android-8.1" />
+  <project path="external/exfat" name="SonyAosp/platform_external_exfat" groups="device" remote="github" revision="android-8.1" />
+  <project path="external/libfuse" name="SonyAosp/platform_external_libfuse" groups="device" remote="github" revision="android-8.1" />
   <project path="external/tinycompress" name="SonyAosp/platform_external_tinycompress" groups="pdk" remote="github" revision="android-8.1" />
 
   <project path="frameworks/av" name="SonyAosp/platform_frameworks_av" groups="pdk" remote="github" revision="android-8.1" />
   <project path="frameworks/base" name="SonyAosp/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-8.1" />
   <project path="frameworks/native" name="SonyAosp/platform_frameworks_native" groups="pdk" remote="github" revision="android-8.1" />
   <project path="frameworks/support" name="SonyAosp/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-8.1" />
+
+  <project path="hardware/broadcom/wlan" name="SonyAosp/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="android-8.1" />
 
   <project path="hardware/qcom/bootctrl" name="SonyAosp/platform_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="android-8.1" />
   <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="android-8.1" />
@@ -47,8 +47,7 @@
   <project path="system/nfc" name="SonyAosp/platform_system_nfc" groups="pdk" remote="github" revision="android-8.1" />
   <project path="system/vold" name="SonyAosp/platform_system_vold" groups="pdk" remote="github" revision="android-8.1" />
 
-  <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="android-8.1" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-  </project>
+  <project path="vendor/sonyaosp" name="SonyAosp/platform_vendor_sonyaosp" groups="device" remote="github" revision="android-8.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SonyAosp/vendor_qcom_opensource_cryptfs_hw" groups="device" remote="github" revision="android-8.1" />
 
 </manifest>
